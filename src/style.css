@@ -105,3 +105,62 @@ justify-content: center;
 .bi bi-plus-lg{
     color: green;
 }
+
+/**styles for label and buttons **/
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn{
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 6px;
+    font: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.bi-x-lg{
+    color: red;
+    font-weight: bold;
+    
+}
+
+/** style rules for shopping cart**/
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.cart-item{
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+}
+
+.title-price-x{
+    width: 195px;
+    display: flex;
+    align-items: center;
+    /**border: 2px solid rebeccapurple; **/
+    justify-content: center;
+}
+
+.title-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price{
+    background-color: #264653;
+    color: white;
+    border: 4px;
+    padding: 3px 6px;
+}
